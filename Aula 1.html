@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lanche</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                background-color: #f8f9fa;
+            }
+            h1, h2, h3 {
+                color: #333;
+            }
+            .promocoes {
+                margin-top: 20px;
+                border: 1px solid #ddd;
+                padding: 10px;
+                background-color: #fff;
+            }
+            button {
+                margin-top: 10px;
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+            button:hover {
+                background-color: #0056b3;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1 id="titulo">LF Burgues</h1>
+            <h2>Cardápios:</h2>
+            <select name="lanche" id="lanche">
+                <option value="X-bacon">X-bacon - R$12,00</option>
+                <option value="Misto">Misto - R$12,00</option>
+                <option value="Cachorro-quente">Cachorro quente - R$12,00</option>
+                <option value="X-GG">X-GG - R$12,00</option>
+            </select>
+            <h3>Bebidas:</h3>
+            <select name="bebida" id="bebida">
+                <option value="Fanta">Fanta - R$12,00</option>
+                <option value="Sprite">Sprite - R$12,00</option>
+                <option value="Coca-cola">Coca-cola - R$12,00</option>
+                <option value="Guaraná">Guaraná - R$12,00</option>
+            </select>
+            <h3>Observações:</h3>
+            <textarea name="comentarios" id="comentarios" rows="4" cols="40" placeholder="Digite aqui alguma observação..."></textarea>
+            <br>
+            <button id="enviarPedido">Enviar Pedido</button>
+        </div>
+
+        <div class="promocoes">
+            <h2>Promoções da Semana</h2>
+            <table border="1" cellpadding="5" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Descrição</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>X-bacon Especial</td>
+                        <td>Acompanhado de batata frita</td>
+                        <td>R$15,00</td>
+                    </tr>
+                    <tr>
+                        <td>Combo Cachorro Quente</td>
+                        <td>Cachorro quente + Guaraná</td>
+                        <td>R$18,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
