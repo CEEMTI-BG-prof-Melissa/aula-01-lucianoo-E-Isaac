@@ -23,3 +23,24 @@ li:nth-child(odd){
 li:nth-child(even){
     background-color: #c8a2c8;
 }
+input[required]{
+    border-color: aqua;
+}
+textarea:focus, input:focus{
+    box-shadow: 20px aquamarine;
+}
+input[type="email"]:valid{
+    background-color: #c8a2c8;
+}
+input[type="email"]:invalid{
+    background-color: #;
+}
+label:has(input[type="checkbok"]:checked){
+    color: red;
+}
+:is(h1,h2,h3){
+    color: blue;
+}
+li:not(:first-child){
+    color:white;
+}
