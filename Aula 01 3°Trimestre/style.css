@@ -1,0 +1,52 @@
+::first-letter{
+    color: blue;
+}
+
+::first-line{
+    background-color: yellow;
+}
+
+h1::before{
+    content: "INÍCIO";
+    color: red;
+}
+
+p::after{
+    content: "FIM";
+    color: green;
+}
+
+::marker{
+    color: #ffa600;
+}
+
+h2::selection{
+    background-color: #ccc;
+}
+
+::placeholder{
+    color: blueviolet;
+}
+
+p::before{
+    content: "Nota";
+    color: blue;
+}
+
+p.destaque::first-line{
+    background-color: pink;
+}
+
+h1::selection{
+    color: white;
+    background-color: black;
+}
+
+::first-letter{
+    color: red;
+    font-size: xx-large;
+}
+
+input::placeholder{
+    background-color: lightgray;
+}
