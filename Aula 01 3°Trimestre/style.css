@@ -1,8 +1,8 @@
-::first-letter{
+p::first-letter{
     color: blue;
 }
 
-::first-line{
+p.importante::first-line{
     background-color: yellow;
 }
 
@@ -16,7 +16,7 @@ p::after{
     color: green;
 }
 
-::marker{
+li::marker{
     color: #ffa600;
 }
 
@@ -24,7 +24,7 @@ h2::selection{
     background-color: #ccc;
 }
 
-::placeholder{
+input::placeholder{
     color: blueviolet;
 }
 
@@ -42,7 +42,7 @@ h1::selection{
     background-color: black;
 }
 
-::first-letter{
+p::first-letter{
     color: red;
     font-size: xx-large;
 }
